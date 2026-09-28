@@ -1,0 +1,10 @@
+name: my first example
+on:
+    workflow_dispatch:
+jobs:
+    echo:
+        runs-on: ubuntu:latest
+        
+        steps:
+            - name: Echo Message
+            run: echo "hello"
