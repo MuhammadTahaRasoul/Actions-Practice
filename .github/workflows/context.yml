@@ -8,5 +8,10 @@ jobs:
         - name: checkout code
           uses: actions/checkout@v7
 
-        - name: taha
-          run: echo "taha"
+        - name: first job
+          run: echo "first job"
+          
+    Second_job:
+        - name: Second Job
+          run: echo "Second Job"
+        
