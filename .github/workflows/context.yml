@@ -2,7 +2,7 @@ name: Echo Message
 
 on: push
 jobs:
-    - name: first_job
-    runs-on: ubuntu_latest
-    steps:
-        run: echo taha 
+    first_job:
+        runs-on: ubuntu_latest
+        steps:
+            run: echo taha 
