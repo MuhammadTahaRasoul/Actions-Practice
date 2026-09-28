@@ -1,7 +1,6 @@
 name: Echo Message
 
-on:
-    push
+on: push
 jobs:
     - name: first_job
     runs-on: ubuntu_latest
