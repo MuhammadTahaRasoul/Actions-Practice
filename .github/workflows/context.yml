@@ -5,4 +5,5 @@ jobs:
     first_job:
         runs-on: ubuntu-latest
         steps:
-            run: echo taha 
+        - name: taha
+          run: echo "taha"
