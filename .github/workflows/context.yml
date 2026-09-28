@@ -1,10 +1,13 @@
-name: my first example
+name: Simple Echo
+
 on:
-    workflow_dispatch:
+  workflow_dispatch:
+
 jobs:
-    echo:
-        runs-on: ubuntu:latest
-        
-        steps:
-            - name: Echo Message
-            run: echo "hello"
+  echo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Echo Message
+        run: echo "Hello from GitHub Ubuntu Runner!"
+
