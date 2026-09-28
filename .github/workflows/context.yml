@@ -1,13 +1,9 @@
-name: Simple Echo
+name: Echo Message
 
 on:
-  [workflow_dispatch,push]
-
+    push
 jobs:
-  echo:
-    runs-on: ubuntu-latest
-
+    - name: first_job
+    runs-on: ubuntu_latest
     steps:
-      - name: Echo Message
-        run: echo "Hello from GitHub Ubuntu Runner!"
-
+        run: echo taha 
